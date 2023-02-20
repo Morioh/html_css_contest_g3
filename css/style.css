@@ -58,3 +58,33 @@ section {
 img {
     border-radius: 5px 5px 0 0;
 }
+
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    /* text-align: center; */
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-arrow-up{
+    position: absolute;
+    right: 0;
+}
