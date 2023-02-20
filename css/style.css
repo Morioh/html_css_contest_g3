@@ -1,3 +1,12 @@
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
 /* Logo */
 .logo {
     float: left;
@@ -7,11 +16,6 @@
 }
 
 /* Navigation */
-nav {
-    display: flex;
-    align-items: center;
-}
-
 nav ul{
     display: flex;
     flex-direction: row;
@@ -25,4 +29,5 @@ nav ul{
 nav ul li a {
     padding: 8px 16px;
     text-decoration: none;
+    color: #000;
 }
